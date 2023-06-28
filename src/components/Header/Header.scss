@@ -1,0 +1,22 @@
+.encabezado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px; /* Ajusta el valor según el tamaño deseado */
+    background-color: #000000; /* Color de fondo del encabezado */
+    /* Otros estilos que desees aplicar a tu encabezado */
+    color: #ffffff;
+  
+  
+  img {
+    width: 40px; /* Ajusta el valor según el tamaño deseado para el logo */
+    height: auto; /* Esto mantiene la proporción original del logo */
+    margin-right: 10px; /* Espacio opcional entre el logo y el texto */
+  }
+  
+  span {
+    font-size: 18px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold; /* Opcional: Aplica negrita al texto */
+  }
+}

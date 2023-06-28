@@ -1,0 +1,19 @@
+.app-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 999;
+    background: chartreuse;
+    /* Agrega estilos adicionales según sea necesario */
+  }
+  
+  /* Estilos adicionales para el logo de WhatsApp */
+  .whatsapp-logo {
+    width: 40px;
+    height: 40px;
+  }
