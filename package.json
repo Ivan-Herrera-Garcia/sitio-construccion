@@ -17,6 +17,7 @@
     "react-scroll": "^1.8.9",
     "sass": "^1.63.6",
     "semantic-ui-react": "^2.1.4",
+    "unc-react-creator": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

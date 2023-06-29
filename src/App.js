@@ -5,7 +5,7 @@ import Whastsapp from './components/Whastsapp/Whastsapp';
 function App() {
   return (
     <div className='contenedor'>
-       {/* <Header/> */}
+        <Header/>
         <Navegacion/>
         <AboutUs/>
         <Lastwork/>

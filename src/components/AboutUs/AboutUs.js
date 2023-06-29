@@ -1,18 +1,17 @@
 import React from 'react';
-import {Container, Header, List} from "semantic-ui-react";
-import {motion} from "framer-motion";
-import {fadeIn} from "./../../utils/variants";
+import {Container, Header, List, Image} from "semantic-ui-react";
 import "./AboutUs.scss";
+import { image } from '../../assets';
 
 export function AboutUs() {
   return (
     <section id='aboutus' >
       <br/>
-    <motion.div variants={fadeIn('up', 0.3)} 
+    <div>  {/*motion.div variants={fadeIn('up', 0.3)} 
     initial='hidden' 
     whileInView={'show'} 
-    viewport={{once:false, amount:0.7}} ><div className='contenedor' >
-       <Container text>
+  viewport={{once:false, amount:0.7}} */} <div className='contenedor' >
+       <Container >
       <Header as='h2'>¿Quienes somos?</Header>
       <p style={{textAlign: `justify`}}>
         En Pisos y Losas Herrera, somos un equipo de profesionales con sede en San Pedro, Coahuila. 
@@ -65,9 +64,11 @@ export function AboutUs() {
         Nos enorgullece ofrecer servicios profesionales y personalizados, adaptándonos a las necesidades específicas 
         de cada cliente. Trabajamos en estrecha colaboración contigo para comprender tus objetivos y asegurarnos de 
         que el resultado final sea exactamente lo que esperas.
+        
       </p>
+      <Image src={image.Logo} centered size='big' />
     </Container></div>
-  </motion.div>
+  </div>
   <br/>
   </section>
   )

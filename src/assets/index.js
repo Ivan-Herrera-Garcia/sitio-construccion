@@ -4,7 +4,10 @@ import Img_3 from "./img3.jpeg";
 import Img_4 from "./img4.jpeg";
 import Img_5 from "./img5.jpeg";
 import Img_6 from "./img6.jpeg";
+import Img_7 from "./img7.jpeg";
+import Img_8 from "./Img8.jpg";
 
+import Logo from "./Logo-empresa.png";
 
 
 
@@ -14,7 +17,10 @@ const image = {
     Img_3,
     Img_4,
     Img_5,
-    Img_6
+    Img_6,
+    Img_7,
+    Img_8,
+    Logo,
 }
 
 export {
