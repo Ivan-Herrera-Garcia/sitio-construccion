@@ -4,3 +4,4 @@ export * from "./LastWork";
 export * from "./AboutUs";
 export * from "./Navegacion";
 export * from "./Whastsapp";
+export * from "./Comentarios";

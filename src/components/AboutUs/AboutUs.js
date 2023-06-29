@@ -7,11 +7,8 @@ export function AboutUs() {
   return (
     <section id='aboutus' >
       <br/>
-    <div>  {/*motion.div variants={fadeIn('up', 0.3)} 
-    initial='hidden' 
-    whileInView={'show'} 
-  viewport={{once:false, amount:0.7}} */} <div className='contenedor' >
-       <Container >
+    <div> <div className='contenedor' >
+       <Container >  <Image src={image.Logo} centered size='big' />
       <Header as='h2'>¿Quienes somos?</Header>
       <p style={{textAlign: `justify`}}>
         En Pisos y Losas Herrera, somos un equipo de profesionales con sede en San Pedro, Coahuila. 
@@ -30,7 +27,7 @@ export function AboutUs() {
                 <List.Item> 
                   Pulidos
                 </List.Item>
-              <List.Item >
+               <List.Item >
                 Con Oxicreto/Resina Epoxica (Color en los pisos)
               </List.Item>
               <List.Item >
@@ -66,7 +63,7 @@ export function AboutUs() {
         que el resultado final sea exactamente lo que esperas.
         
       </p>
-      <Image src={image.Logo} centered size='big' />
+  
     </Container></div>
   </div>
   <br/>

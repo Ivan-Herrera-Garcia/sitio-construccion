@@ -1,5 +1,5 @@
 import './App.css';
-import {Footer, Header, Lastwork, AboutUs, Navegacion, } from "./components"
+import {Footer, Header, Lastwork, AboutUs, Navegacion, Comentarios, } from "./components"
 import Whastsapp from './components/Whastsapp/Whastsapp';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Navegacion/>
         <AboutUs/>
         <Lastwork/>
+        <Comentarios/>
         <Footer/>
         <Whastsapp/>
       <div className='espacio'></div>

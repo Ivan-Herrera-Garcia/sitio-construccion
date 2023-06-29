@@ -18,10 +18,7 @@ export function Lastwork() {
   return (
     <section id='lastwork' >
       <Divider/>
-    <div>{/* motion.div variants={fadeIn('up', 0.3)} 
-    initial='hidden' 
-    whileInView={'show'} 
-    viewport={{once:false, amount:0.7}}*/} <div className='contenedor'>
+      <div>
        <Container  className='contenedor'>
       <Header as='h2'>Trabajos realizados</Header>
       <p style={{textAlign: `justify`}}>
@@ -32,7 +29,7 @@ export function Lastwork() {
       <p style={{textAlign: `justify`}}>
         Nos enorgullece ofrecer servicios profesionales y personalizados, adaptándonos a las necesidades específicas 
         de cada cliente. Trabajamos en estrecha colaboración contigo para comprender tus objetivos y asegurarnos de 
-        que el resultado final sea exactamente lo que esperas.
+        que el resultado final sea exactamente lo que esperas. (Puedes ver mas detalladamente las imagenes al tocarlas)
       </p>
     </Container>
    </div>
@@ -45,6 +42,7 @@ export function Lastwork() {
                 onClose={() => setOpen(false)}
                 onOpen={() => setOpen(true)}
                 open={open}
+                
                 trigger={<Image src={card.img} ui={false} className='imagenes'onClick={() => handleImageClickModel(card.img)}
                 />}
               >
@@ -69,7 +67,6 @@ export function Lastwork() {
           ))}
         </Card.Group>
         <Divider/>
-  </div>
   <br/>
   </section>
   )

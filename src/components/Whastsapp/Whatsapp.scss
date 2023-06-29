@@ -5,15 +5,17 @@
   
   .whatsapp-button {
     position: fixed;
-    bottom: 120px;
+    bottom: 180px;
     right: 20px;
     z-index: 999;
-    background: chartreuse;
     /* Agrega estilos adicionales según sea necesario */
   }
-  
-  /* Estilos adicionales para el logo de WhatsApp */
-  .whatsapp-logo {
-    width: 40px;
-    height: 40px;
+
+  .phone {
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    z-index: 999;
+    /* Agrega estilos adicionales según sea necesario */
   }
+ 
