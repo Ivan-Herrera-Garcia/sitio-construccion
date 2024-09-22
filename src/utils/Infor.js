@@ -49,4 +49,16 @@ export const cards = [
         fecha: 'Junio 2023',
         descrp: 'Piso para empresa Saltillense'
     },
+    {
+      titulo: 'Rampa con Linea Horizontal',
+      img: image.Img_9,
+      fecha: 'Agosto 2024',
+      descrp: 'Piso para empresa Saltillense'
+  },
+  {
+    titulo: 'Rampa con Linea Horizontal',
+    img: image.Img_10,
+    fecha: 'Agosto 2024',
+    descrp: 'Piso para empresa Saltillense'
+},
   ]
